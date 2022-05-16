@@ -1,1 +1,1 @@
-# dtc-data-engineering-zoomcamp
+# DataTalks.Club's Data Engineering Zoomcamp
