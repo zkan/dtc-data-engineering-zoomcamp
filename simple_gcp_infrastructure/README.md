@@ -18,3 +18,9 @@ terraform apply -var="project=<your-gcp-project-id>"
 # Delete infra after your work, to avoid costs on any running services
 terraform destroy
 ```
+
+```sh
+terraform plan -var="project=dtc-de-course-350414" -out tfplan
+terraform apply "tfplan"
+terraform destroy -var="project=dtc-de-course-350414"
+```
